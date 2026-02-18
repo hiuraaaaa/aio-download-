@@ -1,0 +1,101 @@
+/* ============================================
+   PLATFORM ICONS
+   ============================================ */
+
+/* Icon base styles */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* TikTok */
+.icon-tiktok::before {
+  content: "📱";
+  font-size: inherit;
+}
+
+/* Instagram */
+.icon-instagram::before {
+  content: "📷";
+  font-size: inherit;
+}
+
+/* MediaFire */
+.icon-mediafire::before {
+  content: "💾";
+  font-size: inherit;
+}
+
+/* Twitter/X */
+.icon-twitter::before {
+  content: "🐦";
+  font-size: inherit;
+}
+
+/* Facebook */
+.icon-facebook::before {
+  content: "📘";
+  font-size: inherit;
+}
+
+/* YouTube */
+.icon-youtube::before {
+  content: "▶️";
+  font-size: inherit;
+}
+
+/* Pinterest */
+.icon-pinterest::before {
+  content: "📌";
+  font-size: inherit;
+}
+
+/* SnapTik */
+.icon-snaptik::before {
+  content: "⚡";
+  font-size: inherit;
+}
+
+/* LinkedIn */
+.icon-linkedin::before {
+  content: "💼";
+  font-size: inherit;
+}
+
+/* Reddit */
+.icon-reddit::before {
+  content: "🤖";
+  font-size: inherit;
+}
+
+/* Vimeo */
+.icon-vimeo::before {
+  content: "🎬";
+  font-size: inherit;
+}
+
+/* Download */
+.icon-download::before {
+  content: "⬇️";
+  font-size: inherit;
+}
+
+/* Loading spinner */
+.icon-loading::before {
+  content: "⏳";
+  font-size: inherit;
+}
+
+/* Alternative: Use Font Awesome if you prefer */
+.use-fontawesome .icon-tiktok::before { content: "\f2c4"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-instagram::before { content: "\f16d"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-twitter::before { content: "\e61b"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-facebook::before { content: "\f09a"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-youtube::before { content: "\f167"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-pinterest::before { content: "\f0d2"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-linkedin::before { content: "\f08c"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-reddit::before { content: "\f281"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-vimeo::before { content: "\f27d"; font-family: "Font Awesome 6 Brands"; }
+.use-fontawesome .icon-download::before { content: "\f019"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
