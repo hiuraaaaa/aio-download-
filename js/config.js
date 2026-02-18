@@ -45,7 +45,7 @@ const CONFIG = {
       name: "Instagram",
       icon: "instagram",
       color: "#E4405F",
-      active: true,
+      active: false,
       featured: true,
       placeholder: "https://www.instagram.com/p/...",
       supportedDomains: ["instagram.com"],
